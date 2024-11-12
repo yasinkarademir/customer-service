@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (vendor)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Environment files
+.env
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+
+# macOS file
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Swagger/OpenAPI generated files
+*.yaml
+
+# Binary executable
+/customer-service
